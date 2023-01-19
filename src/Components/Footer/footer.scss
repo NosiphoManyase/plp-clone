@@ -1,0 +1,83 @@
+.footer{
+    border-top: 4px solid #040404;
+    border-bottom: 4px solid #040404;
+}
+
+.sign-up{
+    border-bottom: 1 px solid #040404;
+    display: flex;
+    justify-content: center;
+    height: 48px;
+    padding: 24px 0;
+    border-bottom: 1px solid #040404;
+
+    &-text{
+        font-weight: 600;
+        font-size: 16px;
+        width: 206px;
+        margin-right: 8px;
+    }
+
+    button{
+        width: 117px;
+        color: white;
+        background-color: #040404;
+        margin-left: 8px;
+    }
+}
+.email-input-box{
+    width: 380px;
+    background: #F1F1F2;
+    border: none;
+}
+
+
+.footer-quick-links{
+    display: flex;
+    justify-content: space-between;
+}
+
+.column-1{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+
+    div{
+        display: flex;
+        align-items: center;
+
+        p{
+            margin-left: 15px;
+        }
+    }
+}
+
+.legal{
+    display: flex;
+    padding: 36px 0;
+}
+
+.copyrights{
+
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #919191;
+    margin-left: auto;
+    text-align: right;
+
+}
+
+ul {
+    list-style: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 0;
+}
+
+h4{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+}

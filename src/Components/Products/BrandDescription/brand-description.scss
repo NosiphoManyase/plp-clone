@@ -1,0 +1,29 @@
+.brand-info{
+    display: flex;
+}
+
+.brand-content{
+    // align-self: center;
+    margin: 0 16px;
+}
+
+.brand-header{
+    font-weight: 600;
+    font-size: 22px;
+    margin-top: 8px;
+}
+
+.brand-description{
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.more-cta{
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 14px;
+
+    img{
+        margin-left: 14px;
+    }
+}

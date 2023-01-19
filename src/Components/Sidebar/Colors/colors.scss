@@ -1,0 +1,65 @@
+@import '../../../main_styles.scss';
+
+
+.color{
+    @include side-bar-list;
+
+    &__box{
+        width: 26px;
+        height: 26px;
+
+        margin-right: 10px;
+        border: 0.5px solid #E3E3E4;
+        
+    }
+
+    &__name{
+        width: 153px;
+        height: 14px;
+    }
+
+    &__quantity{
+        color: #919191;
+        font-size: 10px;
+    }
+} 
+
+.checkbox{
+    @include checkbox-sizing; 
+    margin-left: 8px;
+    margin-right: 10px;
+}
+
+
+
+.black{
+    background-color: #1A1A1A;
+}
+.blue{
+    background-color: #0085FD;
+}
+.red{
+    background-color: #FF0000;
+}
+.green{
+    background-color: #00AB67;
+}
+.orange{
+    background-color: #00AB67;
+}
+.pink{
+    background-color: #FE61AC;
+}
+.white{
+    background-color: #FFFFFF;
+}
+.yellow{
+    background-color: #FFFF00;
+}
+
+        
+
+        
+
+        
+    

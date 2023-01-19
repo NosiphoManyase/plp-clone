@@ -1,0 +1,95 @@
+.product-section{
+    width: 902px;
+    margin-top: 20px;
+}
+
+.product-count{
+    margin: 15px 0;
+    font-size: 12px;
+    font-weight: 700;
+
+    span {
+       color: #919191; 
+    }
+}
+
+.product-list{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(5, 180px );
+
+}
+
+.item{
+    margin: 0 auto;
+    border: 1px solid #F1F1F2;
+    padding: 8px;
+
+    &-display{
+        position: relative;
+    }
+
+    &-name{
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 18px;
+    }
+
+    &-brand{
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 14px;
+        color: #3E3E3F;
+    }
+
+    &-price{
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+    &-swatch{
+        width: 13px;
+        height: 13px;
+        background-color: #766EFF;
+    }
+}
+
+.wishlist-icon{
+    position: absolute;
+    right: 14px;
+    top: 13px;
+}
+
+.sale-widget,
+.new-widget,
+.promo-widget{
+    color: white;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 8px;
+    left: 8px;
+}
+
+.sale-widget{
+    width: 38px;
+    height: 20px;
+    background: #FF3933; 
+}
+
+.new-widget{
+    width: 36px;
+    height: 20px;
+    background: #040404;
+}
+
+.promo-widget{
+    width: 50px;
+    height: 20px;
+    background: #4646E8;
+}
