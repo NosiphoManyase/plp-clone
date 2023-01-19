@@ -1,9 +1,10 @@
 import React from 'react'
 import BrandDescription from './BrandDescription/BrandDescription'
-import { products } from '../../data/data'
-import sneaker from '../../assets/ProductImages/product-image1.png' 
+import { products } from '../../data/data' 
 import addToWishlist from '../../assets/wishlistIcon.png'
+import dropdown from '../../assets/downTriangle.png'
 import './product-list.scss'
+import RecentlyViewed from './RecentlyViewed/RecentlyViewed'
 
 const Products = () => {
   return (
@@ -33,7 +34,24 @@ const Products = () => {
           </div>
         ))}
         </div>
+
+        <div className='load-more'>
+          <div>
+            <p>You've viewed 10 out of 80 products</p>
+            <div className='full-bar'>
+              <div className='progress-bar'></div>
+            </div>
+          </div>
+          <button>Load more</button>
+        </div>
         
+        <div className='seo-block'>
+            <h4>Title for lorem ipsum</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna...</p>
+            <a>See more <img src={dropdown} alt=''/></a>
+        </div>
+
+        <RecentlyViewed />
     </div>
   )
 }
