@@ -28,7 +28,10 @@ const Products = () => {
             <div className='item-info'>
               <p className='item-name'>{product.name}</p>
               <p className='item-brand'>{product.brand}</p>
-              <p className='item-price'>{product.price}</p>
+              <p className='item-price'>{product.sale && 'Sale Price: '}
+                <span className={product.sale?'sale-price': undefined}>{product.price}</span>
+                {product.promo && ' - Range'}
+              </p>
               <p className='item-swatch'></p>
             </div>
           </div>

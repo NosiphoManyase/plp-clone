@@ -57,6 +57,11 @@
     }
 }
 
+.sale-price{
+    color: #FF3933;
+    text-decoration: line-through;
+}
+
 .wishlist-icon{
     position: absolute;
     right: 14px;
@@ -136,4 +141,26 @@
     height: 4px;
     width: 143px;
     background: #040404;
+}
+
+.item-swatches{
+    display: flex;
+    gap: 5px;
+}
+
+.swatch-purple,
+.swatch-pink,
+.swatch-blue{
+    width: 13px;
+    height: 13px;
+}
+
+.swatch-purple{
+    background-color: #766EFF;
+}
+.swatch-pink{
+    background-color: #FE61AC;
+}
+.swatch-blue{
+    background-color: #0085FD;
 }
