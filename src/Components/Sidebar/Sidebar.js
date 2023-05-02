@@ -6,22 +6,21 @@ import ClothingSizing from './ClothingSizing/ClothingSizing'
 import ShoeSizing from './ShoeSizing/ShoeSizing'
 import Colors from './Colors/Colors'
 import PriceScale from './PriceScale/PriceScale'
-import './sidebar.scss'
 
 
 const Sidebar = () => {
   return (
-    <div className='sidebar'>
+    <div className='w-[290px]'>
         <div className='category'>
-            <div className='category__name'>
+            <div className='category-name'>
                 <span>Brand</span> 
                 <DropdownIcon />
             </div>
             <Brand />
         </div>
-        <hr className='filter-separator' />
-        <div className='category'>
-            <div className='category__name'>
+        <hr className='filter-separator ' />
+        <div className='category'> 
+            <div className='category-name'>
                 <span>Size</span> 
                 <CloseDropdownIcon />
             </div>
@@ -29,7 +28,7 @@ const Sidebar = () => {
         </div>
          <hr className='filter-separator' />
         <div className='category'>
-            <div className='category__name'>
+            <div className='category-name'>
                 <span>Shoe Size</span> 
                 <CloseDropdownIcon />
             </div>
@@ -37,7 +36,7 @@ const Sidebar = () => {
         </div>
          <hr className='filter-separator' />
         <div className='category'>
-            <div className='category__name'>
+            <div className='category-name'>
                 <span>Color</span> 
                 <CloseDropdownIcon />
             </div>
@@ -45,7 +44,7 @@ const Sidebar = () => {
         </div>
          <hr className='filter-separator' />
         <div className='category'>
-            <div className='category__name'>
+            <div className='category-name'>
                 <span>Price Range</span> 
             </div>
             <PriceScale />

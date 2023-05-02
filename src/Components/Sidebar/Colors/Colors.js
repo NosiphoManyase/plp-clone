@@ -1,70 +1,69 @@
 import React from "react";
 import tick from '../../../assets/tickIcon.png'
 import multiColor from '../../../assets/multi-swatch.png'
-import "./colors.scss";
 
 const Colors = () => {
   return (
     <div className="colors">
-      <div className="color">
-        <span className="checkbox ticked">
+      <div className="side-bar-list">
+        <span className="checkbox ml-2 mr-2.5 ticked">
           <img src={tick}/>
         </span>
-        <div className="color__box black"></div>
-        <span className="color__name">Black</span>
-        <span className="color__quantity">132</span>
+        <div className="color-box bg-trueGray-900"></div>
+        <span className="color-name">Black</span>
+        <span className="color-quantity">132</span>
       </div>
-      <div className="color">
-        <span className="checkbox"></span>
-        <div className="color__box blue"></div>
-        <span className="color__name">Blue</span>
-        <span className="color__quantity">13</span>
+      <div className="side-bar-list">
+        <span className="checkbox ml-2 mr-2.5"></span>
+        <div className="color-box bg-blue-500"></div>
+        <span className="color-name">Blue</span>
+        <span className="color-quantity">13</span>
       </div>
-      <div className="color">
-        <span className="checkbox ticked">
+      <div className="side-bar-list">
+        <span className="checkbox ml-2 mr-2.5 ticked">
           <img src={tick}/>
         </span>
-        <div className="color__box red"></div>
-        <span className="color__name">Red</span>
-        <span className="color__quantity">6</span>
+        <div className="color-box bg-[#FF0000]"></div>
+        <span className="color-name">Red</span>
+        <span className="color-quantity">6</span>
       </div>
-      <div className="color">
-        <span className="checkbox"></span>
-        <div className="color__box green"></div>
-        <span className="color__name">Green</span>
-        <span className="color__quantity">46</span>
+      <div className="side-bar-list">
+        <span className="checkbox ml-2 mr-2.5"></span>
+        <div className="color-box bg-[#00AB67]"></div>
+        <span className="color-name">Green</span>
+        <span className="color-quantity">46</span>
       </div>
-      <div className="color">
-        <div className="checkbox"></div>
-        <span className="color__box"><img src={multiColor} alt=''/></span>
-        <span className="color__name">Multi</span>
-        <span className="color__quantity">1</span>
+      <div className="side-bar-list">
+        <div className="checkbox ml-2 mr-2.5"></div>
+        <span className="color-box"><img src={multiColor} alt=''/></span>
+        <span className="color-name">Multi</span>
+        <span className="color-quantity">1</span>
       </div>
-      <div className="color">
-        <span className="checkbox ticked">
+      <div className="side-bar-list">
+        <span className="checkbox ml-2 mr-2.5 ticked">
           <img src={tick}/>
         </span>
-        <div className="color__box orange"></div>
-        <span className="color__name">Orange</span>
-        <span className="color__quantity">19</span>
+        <div className="color-box bg-amber-500"></div>
+        <span className="color-name">Orange</span>
+        <span className="color-quantity">19</span>
       </div>
-      <div className="color">
-        <span className="checkbox"></span>
-        <div className="color__box pink"></div>
-        <span className="color__name">Pink</span>
-        <span className="color__quantity">18</span>
+      <div className="side-bar-list">
+        <span className="checkbox ml-2 mr-2.5"></span>
+        <div className="color-box bg-[#FE61AC]"></div>
+        <span className="color-name">Pink</span>
+        <span className="color-quantity">18</span>
       </div>
-      <div className="color">
-        <span className="checkbox"></span>
-        <div className="color__box white"></div>
-        <span className="color__name">White</span>
-        <span className="color__quantity">86</span>
+      <div className="side-bar-list">
+        <span className="checkbox ml-2 mr-2.5"></span>
+        <div className="color-box bg-white"></div>
+        <span className="color-name">White</span>
+        <span className="color-quantity">86</span>
       </div>
-      <div className="color">
-        <span className="checkbox"></span>
-        <div className="color__box yellow"></div>
-        <span className="color__name">Yellow</span>
-        <span className="color__quantity">4</span>
+      <div className="side-bar-list">
+        <span className="checkbox ml-2 mr-2.5"></span>
+        <div className="color-box bg-[#FFFF00]"></div>
+        <span className="color-name">Yellow</span>
+        <span className="color-quantity">4</span>
       </div>
     </div>
   );
