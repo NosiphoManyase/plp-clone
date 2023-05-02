@@ -1,9 +1,10 @@
 import React from 'react'
-import "./sizes.scss"
 
 const ShoeSizing = () => {
+
+//make grid columns closer together
   return (
-    <div className='shoe-sizes'>
+    <div className='grid grid-cols-3 gap-2'>
       <button className='size-btn'>UK 2.5</button>
       <button className='size-btn'>UK 3</button>
       <button className='size-btn'>UK 3.5</button>

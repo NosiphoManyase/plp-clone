@@ -1,13 +1,59 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .category {
+        @apply text-sm font-semibold text-trueGray-900 mt-[19px] mr-[20px] mb-[38px] ml-[16px]
+    }
+
+    .category-name {
+        @apply flex justify-between items-center mb-[20px]
+    }
+
+    .filter-separator {
+        @apply opacity-10 mx-[16px]
+    }
+
+    .size-btn {
+        @apply border-none py-[5px] px-[10px] text-xs font-semibold bg-[#f1f1f2] w-[58px]
+    }
+
+    .circle {
+        @apply h-[20px] w-[20px] bg-[#000000] rounded-full inline-block
+    }
+
+    .side-bar-list{
+        @apply text-sm font-semibold my-2 mx-4 flex justify-between items-center 
+    }
+
+    .checkbox{
+        @apply w-[16px] h-[16px]
+    }
+
+    .color-box{
+        @apply w-[26px] h-[26px] mr-2.5 border-[0.5px] border-[#E3E3E4]
+    }
+
+    .color-name{
+        @apply w-[153px] h-[14px]
+    }
+
+    .color-quantity{
+        @apply text-[#919191] text-[10px]
+    }
+
+    .size-spacing {
+        @apply mr-auto
+    }
+
+    .size-quantity {
+        @apply text-[10px] text-trueGray-400
+    }
+
+    .active-size {
+        @apply bg-gray-100
+    }
+
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
