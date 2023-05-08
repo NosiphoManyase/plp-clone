@@ -104,7 +104,24 @@
         @apply bg-[#0085FD]
     }
 
-    
+    .utility {
+        @apply flex items-center text-[10px] h-4 font-normal
+    }
 
+    .utility-icon{
+       @apply mr-[5px];
+    }
+
+    .departments-btn {
+        @apply bg-white border-none text-trueGray-700 font-semibold
+    }
+
+    .active {
+        @apply underline underline-offset-2 decoration-[#4646E8]
+    }
+
+    .footer-column-1 {
+        @apply flex items-center gap-[15px]
+    }
 }
 

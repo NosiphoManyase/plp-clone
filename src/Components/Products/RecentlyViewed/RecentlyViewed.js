@@ -25,7 +25,7 @@ const RecentlyViewed = () => {
         </div>
       </div>
       <div className='item'>
-        <div className='relat'>
+        <div className='relative'>
           <img src={addToWishlist} alt='' className='wishlist-icon'/>
           <img src={sneaker} alt='' className='item-img'/>
         </div>
@@ -57,7 +57,7 @@ const RecentlyViewed = () => {
         </div>
       </div>
       <div className='item'>
-        <div className='relat'>
+        <div className='relative'>
           <img src={addToWishlist} alt='' className='wishlist-icon'/>
           <img src={sneaker} alt='' className='item-img'/>
         </div>
@@ -73,7 +73,7 @@ const RecentlyViewed = () => {
         </div>
       </div>
       <div className='item'>
-        <div className='relat'>
+        <div className='relative'>
           <img src={addToWishlist} alt='' className='wishlist-icon'/>
           <img src={sneaker} alt='' className='item-img'/>
         </div>
