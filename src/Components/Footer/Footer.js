@@ -9,38 +9,38 @@ import telephone from '../../assets/telephone.png'
 import location from '../../assets/locationIcon.png'
 import delivery from '../../assets/delivery.png'
 import wallet from '../../assets/wallet.png'
-import './footer.scss'
+// import './footer.scss'
 
 const Footer = () => {
   return (
     <div>
-        <div className='footer'>
-            <div className='sign-up'>
-                <p className='sign-up-text'>Sign up to our newsletter</p>
-                <input className='email-input-box'
+        <div className='border-y-4 border-trueGray-950'>
+            <div className='border-b border-trueGray-950 flex justify-center h-[48px] py-6 '>
+                <p className='font-semibold text-base w-[206px] mr-2'>Sign up to our newsletter</p>
+                <input className='w-[380px] bg-gray-100 border-none'
                     placeholder='Enter your email address'
                 />
-                <button>Subscribe</button>
+                <button className='w-[117px] bg-trueGray-900 ml-2 **'>Subscribe</button>
             </div>
-            <div className='footer-quick-links'>
-                <div className='column-1'>
-                    <div>
+            <div className='flex justify-between'>
+                <div className='font-semibold text-sm leading-4 flex flex-col gap-2'>
+                    <div className='footer-column-1'>
                         <img src={wallet} alt='' />
                         <p>Pay your TFG Money Account online</p>
                     </div>
-                    <div>
+                    <div className='footer-column-1'>
                         <img src={delivery} alt='' />
                         <p>Track your order</p>
                     </div>
-                    <div>
+                    <div className='footer-column-1'>
                         <img src={location} alt='' />
                         <p>Find your nearest store</p>
                     </div>
-                    <div>
+                    <div className='footer-column-1'>
                         <img src={telephone} alt='' />
                         <p>Contact us</p>
                     </div>
-                    <div>
+                    <div className='footer-column-1'>
                         <img src={cellphone} alt='' />
                         <p>Get the Bash app</p>
                     </div>
@@ -69,8 +69,8 @@ const Footer = () => {
                     </ul>
                 </div>
                 <div className='column-4'>
-                    <h4>Company</h4>
-                    <ul>
+                    <h4 className='font-semibold leading-5'>Company</h4>
+                    <ul className='font-base text-sm leading-5'>
                         <li>Store finder</li>
                         <li>About Bash</li>
                         <li>About TFG - The Foschini Group Ltd.</li>
@@ -80,12 +80,12 @@ const Footer = () => {
                 </div> 
             </div>
         </div>
-        <div className='legal'>
+        <div className='flex py-[36px]'>
             <div className='logo'>
                 <img src={logoBig} />
             </div>
-            <div className='copyrights'>
-                <div>
+            <div className='font-base text-xs leading-[18px] text-trueGray-400 ml-auto'>
+                <div className='flex'>
                     <img src={instagram} alt='' />
                     <img src={twitter} alt='' />
                     <img src={tiktok} alt='' />

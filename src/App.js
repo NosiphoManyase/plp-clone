@@ -3,7 +3,6 @@ import Navigation from './Components/Navigation/Navigation';
 import Products from './Components/Products/Products';
 import Sidebar from './Components/Sidebar/Sidebar'
 import delivery from './assets/delivery.png'
-import './main_styles.scss'
 
 function App() {
   return (
